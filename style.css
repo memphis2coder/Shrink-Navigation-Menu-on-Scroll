@@ -1,0 +1,19 @@
+.navbar {
+    padding: 50px !important;
+    /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s;
+    /* Adds a transition effect when the padding is decreased */
+}
+
+/* this makes the navbar smaller on scroll */
+.affix {
+    padding: 20px !important;
+    -webkit-transition: padding 0.2s linear;
+    -moz-transition: padding 0.2s linear;
+    -o-transition: padding 0.2s linear;
+
+}
+
+body {
+    padding-top: 150px;
+}
